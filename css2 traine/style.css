@@ -1,0 +1,215 @@
+
+/*task1*/
+.container{ 
+    border:solid#f25922 1px;text-align: center;
+   height: 100px;width: 100px;background-color:orangered
+;margin:0 auto;opacity:1;
+}
+.outter{
+    border:solid#d98c70 1px;text-align: center;
+    height: 100px;width: 100px;background-color:orangered
+ ;margin:0 auto; opacity: 0.75;
+}
+.box{border:solid#f25319 1px;text-align: center;
+height: 100px;width: 100px;background-color:orangered
+;margin:0 auto; opacity: 0.5;}
+.opa{
+    border:solid#f25319 1px;text-align: center;
+    height: 100px;width: 100px;background-color:orangered
+    ;margin:0 auto;opacity: 0.25;
+}
+/*task2*/
+.over{
+    text-align: center;
+}
+.o{
+    border: solid black;height: px;width: 200px;margin:0 auto;
+}
+.o1{ overflow:visible;
+    
+}
+.o2{
+   overflow: hidden;
+}
+.o3{overflow: scroll;
+
+}
+.o4{
+    overflow:auto;
+}
+/*task 3*/
+.example{
+    text-align: center;
+}
+.b1{
+    border: solid black;height:100px;width:300px;text-align: center;margin:0 auto;
+}
+.b2{
+    border: dashed red;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b3{
+    border: dotted blue;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b4{
+    border: double purple;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b5{
+    border: groove fuchsia;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b6{
+    border: ridge greenyellow;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b7{
+    border: inset yellow;height:100px;width:300px;text-align: center;margin:0 auto
+}
+.b8{
+    border: outset brown;height:100px;width:300px;text-align: center;margin:0 auto
+}
+/*task4*/
+
+.out1{ border: solid blue;  height:150px;width:200px;margin:0 auto;text-align: center
+
+}
+.out2{ border: solid red; height:150px;width:200px;margin:0 auto;text-align: center
+   
+
+}
+.out3{border: dashed red;outline:solid blue;height:150px;width:200px;margin:0 auto;text-align: center
+   
+
+}
+.out4{border: solid green;outline:solid yellow;outline-offset: 10px;
+    height:150px;width:200px;margin:0 auto;text-align: center
+}
+/*task5*/
+.padding{
+    border:solid rgb(65, 7, 7);padding:100px 100px;
+    text-align: center;background-color: burlywood
+}
+/*task6*/
+.margin{
+    border:solid rgb(65, 7, 7);margin:100px 100px;
+    text-align: center;background-color: burlywood
+}
+/*task7*/
+.box{
+   border: solid brown;background-color:brown;
+   height:100px;width: 400 px; text-align: center;border-radius:20px;
+}
+.sh1{
+    box-shadow:10px 10px 15px ;
+}
+.sh2{
+    box-shadow: inset 5px 5px 10px;
+}
+.sh3{
+    box-shadow: 5px 5px 10px white,-5px -5px 10px black;
+}
+/*task8*/
+.div1{
+    border: solid black;width: 1000px;height: 200px; position:relative;
+}
+.div2{
+   border:solid green; 
+   background-color: green;width: 400px;height: 200px;
+    position:fixed ;top:0px; left: 200px;z-index:0;
+}
+.div3{
+    border:solid blue;
+    background-color: blue;width: 700px;
+    height: 150px;position:absolute ;top:150px ;left:50px;;
+}
+/*task9*/
+.position{
+    border:solid;height: 200px;width: 200px;border-radius: 10px;
+}
+.a1{
+    background-color: blue;position: relative;
+}
+.a2{
+    background-color: red;position:absolute;top: 30px;left: 30px;
+}
+.a3{
+    background-color:yellow;position:absolute;top: 30px;left: 30px; 
+}
+.a4{
+    background-color: green;position:absolute;top: 30px;left: 30px;
+}
+/*task10*/
+.absolute{
+    border:solid;height: 200px;width: 200px;
+}
+.s1{
+    position: relative;background-color:red;top: 0px;left: 0px;
+}
+.s2{
+    position: absolute;background-color: blue;top: 0px;right: 0px;
+}
+.s3{
+    position: absolute;background-color:green;bottom: 0px; left: 0px;
+}
+.s4{
+    position: absolute;background-color:yellow;bottom: 0px; right: 0px;
+}
+/*task11*/
+.different{ background-color: aqua;
+    border-left: solid red;border-bottom: dashed blue; width: 300px;height: 100px;
+}
+/*task12*/
+.mp{ border: solid blue;
+
+}
+.pmb{
+    border: dashed red;
+    background-color: bisque;
+    padding:30px;margin: 100px
+}
+/*task13*/
+.game{
+    border: solid black; margin:0 auto; 
+    overflow: scroll;width: 400px;height: 400px;
+}
+/*task14*/
+
+.bsh{
+    border:solid red ;height: 300px;width: 300px;margin:0 auto ;
+    box-shadow: 5px -5px 0 0 white,
+    10px -10px 0 0 blue,
+    15px -15px 0 0 white,
+    20px -20px 0 0 green,
+    25px -25px 0 0 white,
+    30px -30px 0 0 brown;
+
+}
+
+/*task15*/
+.rs{
+    height:900px;width: 1000px;position: relative;
+
+}
+.number{
+    height: 300px;width:250px;border: solid;border-radius:20px;
+}
+.ox1{ background-color: palevioletred; position:absolute;top:200px;left:200px;z-index:1; }
+.ox2{background-color: blue; position:absolute;top:0px;left:250px}
+.ox3{background-color:yellow; position:absolute;top:0px;left:500px}
+.ox4{background-color:green; position:absolute;top:0px;left:750px}
+.ox5{ background-color:purple; position:absolute;top:300px;left:0px}
+.ox6{background-color:pink; position:absolute;top:300px;left:250px}
+.ox7{background-color:palevioletred; position:absolute;top:300px;left:500px}
+.ox8{background-color:blue; position:absolute;top:300px;left:750px}
+.ox9{background-color:green; position:absolute;top:600px;left:0px}
+.ox10{background-color:yellow; position:absolute;top:600px;left:250px  }
+.ox11{background-color:purple; position:absolute;top:600px;left:500px}
+.ox12{background-color:pink; position:absolute;top:600px;left:750px}
+
+/*task16*/
+.tas16{
+    position: relative;
+}
+.image17{ height: 100px;width: 100px;
+    position: fixed;top: 0px;left: 0px;
+}
+.text{
+    line-height:1.5;
+}
